@@ -1,12 +1,12 @@
-import './App.css'
-import { Kanbanboard } from './screens/KanbanBoard'
+import "./App.css";
+import { Kanbanboard } from "./screens/KanbanBoard";
 
 function App() {
   return (
     <>
-   <Kanbanboard />
+      <Kanbanboard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

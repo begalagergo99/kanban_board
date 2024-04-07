@@ -14,11 +14,17 @@ dependencies:
   '@mui/material':
     specifier: ^5.15.15
     version: 5.15.15(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.74)(react-dom@18.2.0)(react@18.2.0)
+  '@types/react-beautiful-dnd':
+    specifier: ^13.1.8
+    version: 13.1.8
+  rambda:
+    specifier: ^9.2.0
+    version: 9.2.0
   react:
     specifier: ^18.2.0
     version: 18.2.0
   react-beautiful-dnd:
-    specifier: ^13.1.1
+    specifier: ^13.0.0
     version: 13.1.1(react-dom@18.2.0)(react@18.2.0)
   react-dom:
     specifier: ^18.2.0
@@ -974,6 +980,12 @@ packages:
 
   /@types/prop-types@15.7.12:
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
+
+  /@types/react-beautiful-dnd@13.1.8:
+    resolution: {integrity: sha512-E3TyFsro9pQuK4r8S/OL6G99eq7p8v29sX0PM7oT8Z+PJfZvSQTx4zTQbUJ+QZXioAF0e7TGBEcA1XhYhCweyQ==}
+    dependencies:
+      '@types/react': 18.2.74
+    dev: false
 
   /@types/react-dom@18.2.24:
     resolution: {integrity: sha512-cN6upcKd8zkGy4HU9F1+/s98Hrp6D4MOcippK4PoE8OZRngohHZpbJn1GsaDLz87MqvHNoT13nHvNqM9ocRHZg==}
@@ -1964,6 +1976,10 @@ packages:
 
   /raf-schd@4.0.3:
     resolution: {integrity: sha512-tQkJl2GRWh83ui2DiPTJz9wEiMN20syf+5oKfB03yYP7ioZcJwsIK8FjrtLwH1m7C7e+Tt2yYBlrOpdT+dyeIQ==}
+    dev: false
+
+  /rambda@9.2.0:
+    resolution: {integrity: sha512-RjM8TBNPR+iSvWLqbBpFveDfEf2RPRKHuwBHjQdXsYFDwn3MIvgmJiqVVC1CIQKnOwzeDQd44zqDFgSKQ7RT1Q==}
     dev: false
 
   /react-beautiful-dnd@13.1.1(react-dom@18.2.0)(react@18.2.0):
